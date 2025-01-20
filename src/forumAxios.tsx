@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:9090";
+const API_URL = "https://chatterbox-backend-mkjs.onrender.com/";
 
 const ForumAxios = axios.create({
     baseURL: API_URL,

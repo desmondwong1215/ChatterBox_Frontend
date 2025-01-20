@@ -10,7 +10,7 @@ import ForumAxios from '../forumAxios';
 import { post } from "../lib/dataTypes";
 import "../Style/forum.css";
 import { brown } from '@mui/material/colors';
-import Feedback from './FeedBack';
+import Feedback from './Feedback';
 
 function Forum() {
 

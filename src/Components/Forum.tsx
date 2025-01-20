@@ -137,6 +137,7 @@ function Forum() {
   // decrypt the username from the token in local storage
   function getUsername(): string {
     const token = localStorage.getItem("access_token");
+    if (!token) return "";
     const tokenPayload = JSON.parse(atob(token!.split(".")[1]!));
     return tokenPayload["user"];
   }

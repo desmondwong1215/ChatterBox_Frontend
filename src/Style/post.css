@@ -1,6 +1,5 @@
 .post-card {
     width: 500px;
-    height: 500px;
 }
 
 .icon-shake:hover {
@@ -73,6 +72,5 @@
 @media screen and (max-width: 840px) {
     .post-card {
         width: 300px;
-        height: 500px;
     }
 }

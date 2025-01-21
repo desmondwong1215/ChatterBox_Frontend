@@ -7,7 +7,7 @@ import logo from "../image/forum_icon.png";
 import "../Style/errorPage.css";
 
 function ErrorPage() {
-    return <Stack direction="row" spacing={2} id="error-div">
+    return <Stack direction="row" spacing={2} id="error-div" sx={{width: "100%"}}>
 
         {/* error message */}
         <Stack direction="column" spacing={4} alignItems="center" justifyContent="center" className="errorMessage">

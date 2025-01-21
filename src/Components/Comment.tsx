@@ -61,7 +61,7 @@ function Comment(props: CommentProps) {
     
     return <Zoom in={true} mountOnEnter>
         <Box className="comment-box">
-            <Stack direction="row" spacing={2}>
+            <Stack direction="row" spacing={2} alignItems="center">
                 <Avatar {...stringAvatar(props.user!)}
                     style={{width: "24px", height: "24px", fontSize: "10px"}}
                     title={sameUser ? "You" : props.user}/>

@@ -1,6 +1,10 @@
 import axios from "axios";
 
+// connect to the database deployed on the render
 const API_URL = "https://chatterbox-backend-mkjs.onrender.com/";
+
+// run on your local machine
+// const API_URL = "http://localhost:9090";
 
 const ForumAxios = axios.create({
     baseURL: API_URL,

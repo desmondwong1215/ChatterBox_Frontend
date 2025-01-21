@@ -39,43 +39,45 @@ function Login() {
     }
 
     return <Zoom in={true} timeout={800}>
-        <form className="login-container" onSubmit={(event) => LogInBut(event)}>
+        <div className="login-page">
+            <form className="login-container" onSubmit={(event) => LogInBut(event)}>
 
-            {/* ChatterBox logo */}
-            <Slide in={true} timeout={1000} mountOnEnter>
-                <div className="logoBox">
-                    <h2>ChatterBox</h2>
-                    <img src={logo}/>
-                </div>
-            </Slide>
+                {/* ChatterBox logo */}
+                <Slide in={true} timeout={1000} mountOnEnter>
+                    <div className="logoBox">
+                        <h2>ChatterBox</h2>
+                        <img src={logo}/>
+                    </div>
+                </Slide>
 
-            {/* Username input */}
-            <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
-                <AccountCircle sx={{ color: 'action.active', mr: 1, my: 0.5 }} />
-                <TextField id="input-with-sx" 
-                    label={isError ? "Username can't be empty" : "Enter Username"} 
-                    variant="standard"
-                    value={username}
-                    onChange={(event: any) => setUsername(event.target.value)}
-                    slotProps={{
-                        input: {
-                          endAdornment: 
-                            <InputAdornment position="end">
-                                <Button type="submit" 
-                                    variant="contained" 
-                                    size="small" 
-                                    endIcon={<LoginIcon />}
-                                    style={{
-                                        marginBottom: "20px"
-                                    }}>Login</Button>
-                            </InputAdornment>,
-                        },
-                    }}
-                    error={isError}
-                    autoFocus />
-            </Box>
-            
-        </form>
+                {/* Username input */}
+                <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
+                    <AccountCircle sx={{ color: 'action.active', mr: 1, my: 0.5 }} />
+                    <TextField id="input-with-sx" 
+                        label={isError ? "Username can't be empty" : "Enter Username"} 
+                        variant="standard"
+                        value={username}
+                        onChange={(event: any) => setUsername(event.target.value)}
+                        slotProps={{
+                            input: {
+                            endAdornment: 
+                                <InputAdornment position="end">
+                                    <Button type="submit" 
+                                        variant="contained" 
+                                        size="small" 
+                                        endIcon={<LoginIcon />}
+                                        style={{
+                                            marginBottom: "20px"
+                                        }}>Login</Button>
+                                </InputAdornment>,
+                            },
+                        }}
+                        error={isError}
+                        autoFocus />
+                </Box>
+                
+            </form>
+        </div>
     </Zoom>
 }
 

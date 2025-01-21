@@ -1,3 +1,11 @@
+.login-page {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .login-container {
     /* background-color: #7E99A3; */
     background-color: rgb(222, 226, 230, 0.075);
@@ -8,7 +16,7 @@
     width: 30%;
     height: 50vh;
     margin-top: 150px;
-    margin-left: 35%;
+    /* margin-left: 35%; */
     align-items: center;
     justify-content: center;
     border: solid #495057;
@@ -18,8 +26,7 @@
 
 @media screen and (max-width: 850px) {
     .login-container {
-        width: max(60%, 250px);
-        margin-left: 20%;
+        width: max(60%, 400px);
     }
 }
 

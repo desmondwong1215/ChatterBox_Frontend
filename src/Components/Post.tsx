@@ -102,7 +102,7 @@ function Post(props: PostProps) {
 
     return <Zoom in={true} mountOnEnter unmountOnExit>
         <div>
-            <Card sx={{ width: 500 }} elevation={24} className={props.isLight ? "light-mode-card" : ""}>
+            <Card elevation={24} className={(props.isLight ? "light-mode-card " : "").concat("post-card")}>
 
                 {/* card header show avatar, more option icon, title of the post */}
                 <CardHeader

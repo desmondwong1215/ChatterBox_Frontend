@@ -175,8 +175,14 @@ function Forum() {
           keyWordsOnChange={keyWordsOnChange}
           controlMode={controlMode}
           logOutBut={logOutBut}
-          setCreatePost={() => setCreatePost(true)}
-          setFeedback={() => setFeedback(true)}/>
+          setCreatePost={() => {
+            setFeedback(false);
+            setCreatePost(true);
+          }}
+          setFeedback={() => {
+            setFeedback(true);
+            setCreatePost(false);
+          }}/>
 
         {/* text field for user to create Post */}
         <CreatePost submit={addPost}

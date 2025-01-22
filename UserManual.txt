@@ -8,8 +8,8 @@ community, ChatterBox.
 
 Getting Start
 
-To join us, you can simply click here, `ChatterBox`. Otherwise, you 
-can copy the link, http://localhost:5173 to your browser.
+To join us, you can copy the link, https://my-chatterbox.netlify.app 
+to your browser.
 
 
 A Look Inside

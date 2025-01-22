@@ -1,0 +1,116 @@
+This is a forum website, called `ChatterBox`.
+
+Everyone is welcome to share their thoughts, experiences, and ideas 
+with people from all walks of life. Discussions are highly encouraged 
+to build a more interactive platform and community. Welcome to our 
+community, ChatterBox.
+
+
+Getting Start
+
+To join us, you can simply click here, `ChatterBox`. Otherwise, you 
+can copy the link, http://localhost:5173 to your browser.
+
+
+A Look Inside
+1.	Home Page
+    a.	Once you are directed to the ChatterBox website, there is a 
+        short and brief introduction to our platform. You can click 
+        the `Join Us Now` button to proceed to our login page.
+
+2.	Login Page
+    a.	You can choose your username for the authentication. There is 
+        no restriction on your username if it is not empty. 
+    b.	Note that this website is designed to authenticate users solely 
+        by their username. Thus, users are encouraged to create their 
+        account with a special username, or else they may share the same 
+        account with other users.
+
+3.	Forum Page
+    a.	Upon successful login, you will be directed to our platform. 
+        Users should see a forum navbar at the top of the website, 
+        and a list of posts and threads from all users of the ChatterBox.
+
+Get the Most Out of ChatterBox
+1.	Avatar
+    a.	Every user will have their avatar, and it will have a dropdown 
+        menu in the navbar. Users can choose the theme of the website, 
+        create a post, send feedback to us, or log out.
+    b.	The default theme of the website is dark mode.
+    c.	If you have a very long username, you may need to hover over 
+        your avatar to see your complete username.
+
+2.	Share Your Thoughts
+    a.	To create a post, you can click on the `Create Post` button in 
+        the navbar. Otherwise, you can click on your avatar, a dropdown 
+        will be shown with a `Create Post` option.
+    b.	Upon clicking on the text box, you will be prompted to enter the 
+        title and content of the post. 
+    c.	Once you are done, you can click the `SEND` button to create the 
+        post. Note that, the action may fail if you leave any of the 
+        sections empty. 
+    d.	You can click the `DELETE` button to cancel everything entered.
+    e.	You can click the cross icon on the top to exit.
+
+3.	Comments on Other User’s Posts
+    a.	For each post, there is an arrow icon pointing downward. Once you 
+        click on that arrow, the comment section will be expanded. The text 
+        field for comments will be at the bottom.
+    b.	Similar to creating a post, the comment also cannot be empty. Click 
+        the `Add` icon button to send the comment
+    c.	To shrink the comment section, click the arrow button, which will be 
+        pointing upward upon the comment section is expanded, at the position 
+        aforementioned.
+
+4.	Like Posts and Comments
+    a.	There will be an empty love icon for every post and comment. Every 
+        user can click on the love icon of the posts and comments that they 
+        are interested in to show their support. It will then become a filled 
+        love icon.
+    b.	The love icon will toggle between these two states every time a user 
+        clicks it.
+    c.	The number beside the love icon reflects the number the users that 
+        have licked the post or comment.
+
+5.	More Options for Post
+    a.	There is a more options icon for every post. Once you click that icon, 
+        a popper will be shown. You need to click the same icon again to close 
+        the popper. If you are the owner of the post, you can choose to edit or 
+        delete the post. Otherwise, you can report the post if there is any issue.
+    b.	Edit the post
+        i.	Click the `EDIT` button, you will see the post title, and the post 
+            content will be in edit mode.
+        ii.	Once you have done editing, click the `SEND` button to confirm the 
+            changes. Any changes will be discarded if the `BACK` button is clicked.
+    c.	Delete the post
+        i.	Click the `DELETE` button, the `DELETE` button will become the `CONFIRM` 
+            button and the `BACK` button. Click the `CONFIRM` button only if you 
+            want to delete the post.
+        ii.	Note that this action is irreversible.
+    d.	Report the post
+        i.	This action is disabled at this moment.
+
+6.	More Options for Comment
+    a.	You will have the option to delete or edit the comment if you are the 
+        owner of the comment. Otherwise, you can report the comment if there is 
+        any issue, which is also disabled at this moment. The logic of deleting 
+        and editing comments is very similar to these actions on posts.
+    b.	The edit button is represented by a pencil icon while the delete button 
+        is represented by the dustbin icon.
+    c.	If you want to delete a comment, note that the `CONFIRM` and `BACK` 
+        buttons are replaced by the tick and cross icons respectively.
+
+7.	Share the Post
+    a.	This action is disabled at this moment.
+
+
+Troubleshooting
+
+If you find any issues with ChatterBox, feel free to drop us feedback, which 
+can be found in the dropdown of your avatar.
+
+
+Error Page
+If you change the URL of the website to an address that is not implemented 
+in ChatterBox, you will be directed to an error page, showing `404 Page Not Found`. 
+Please click the `Previous` button to return to the previous page.
